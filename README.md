@@ -1,4 +1,4 @@
-Frontend
+Instrucciones de instalación
 ***********************************
 
 -Abrir nueva ventana de VS Code
@@ -13,7 +13,7 @@ O reinstalar si hay problemas
 -Comando principal de desarrollo
 npm run dev
 
-Instrucciones de ejecución
+-Instrucciones de ejecución
 ****************************************
 
 Ejecutar el proyecto en modo desarrollo:
