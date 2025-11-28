@@ -1,0 +1,100 @@
+.navbar {
+  background-color: #587042 !important; 
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  z-index: 1050;
+  box-shadow: 0 2px 8px rgba(88, 112, 66, 0.2); 
+}
+
+body {
+  padding-top: 70px; 
+  margin: 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #FAF7E6 !important; 
+}
+
+.navbar-light .nav-link {
+  color: #FAF7E6 !important; 
+  transition: color 0.2s ease;
+}
+.navbar-light .nav-link:hover {
+  color: #F8DE8C !important; 
+}
+
+/* Efecto activo para enlaces */
+.navbar-light .nav-link.active {
+  color: #F6C531 !important; 
+  font-weight: 600;
+}
+
+
+@media (min-width: 992px) {
+  .navbar .navbar-collapse {
+    justify-content: center; 
+  }
+  .navbar .navbar-nav {
+    gap: 1.25rem;         
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar .navbar-collapse {
+    justify-content: flex-start;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 0.5rem 0;
+  }
+}
+
+.navbar-toggler {
+  border-color: #FAF7E6; /* Cosmic latte */
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23FAF7E6' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.mini-carrito {
+  background-color: #FAF7E6; 
+  border: 1px solid #DAD7CD; 
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(88, 112, 66, 0.2);
+}
+
+.mini-carrito h6 {
+  color: #587042; 
+  font-weight: 600;
+}
+
+.mini-carrito-list {
+  max-height: 220px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #8C9A6C #FAF7E6;
+}
+
+.mini-carrito-list::-webkit-scrollbar {
+  width: 6px;
+}
+.mini-carrito-list::-webkit-scrollbar-thumb {
+  background-color: #8C9A6C;
+  border-radius: 4px;
+}
+.mini-carrito-list::-webkit-scrollbar-thumb:hover {
+  background-color: #587042;
+}
+
+.carrito-container .badge {
+  background-color: #F6C531 !important; 
+  color: #587042 !important; 
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.navbar-nav .nav-link {
+  white-space: nowrap;
+}

@@ -1,0 +1,136 @@
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f9f8;
+}
+
+#menu-sidebar {
+  width: 240px;
+  background-color: #708b75;
+  color: #fdfdfc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+#menu-sidebar #logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #f6f5ef;
+}
+
+#menu-sidebar ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+#menu-sidebar li {
+  margin: 10px 0;
+}
+
+#menu-sidebar a {
+  color: #fdfdfc;
+  text-decoration: none;
+  display: block;
+  padding: 12px 0;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+#menu-sidebar a:hover,
+#menu-sidebar a.active-link {
+  background-color: #90a88f;
+  color: #fffdf5;
+  font-weight: 600;
+}
+
+.logout-btn {
+  background: #5c705f;
+  color: #fffdf5;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+.logout-btn:hover {
+  background: #445b48;
+}
+
+.admin-main {
+  margin-left: 240px;
+  padding: 2rem;
+  background-color: #f8f9f8;
+  flex-grow: 1;
+  min-height: 100vh;
+}
+
+.admin-header h2 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #445b48;
+}
+
+@media (max-width: 991px) {
+  #menu-sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .admin-main {
+    margin-left: 0;
+  }
+
+  .logout-btn {
+    margin-left: 1rem;
+  }
+}
+
+#menu-sidebar #logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #f6f5ef;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+#menu-sidebar #logo:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+  color: #fffdf5;
+}
+
+#menu-sidebar a.active-link {
+  background-color: #90a88f;
+  color: #fffdf5;
+  font-weight: 600;
+  position: relative;
+}
+
+#menu-sidebar a.active-link::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: #fffdf5;
+  border-radius: 50%;
+}

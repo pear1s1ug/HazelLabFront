@@ -1,0 +1,35 @@
+.admin-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f9f7; /* gris verdoso claro */
+  font-family: "Poppins", sans-serif;
+}
+
+#main {
+  flex-grow: 1;
+  margin-left: 220px; 
+  padding: 2rem;
+  background-color: #fdfdfc;
+}
+
+#header h2 {
+  color: #475c3c; 
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.content-area {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(71, 92, 60, 0.1);
+  min-height: 60vh;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 992px) {
+  #main {
+    margin-left: 0;
+    padding: 1rem;
+  }
+}

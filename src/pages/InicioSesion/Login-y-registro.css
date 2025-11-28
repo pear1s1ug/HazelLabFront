@@ -1,0 +1,120 @@
+.login-container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fdfbf4; 
+  border: 1px solid #dcd7c9;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(88, 112, 66, 0.1);
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #587042;
+}
+
+.login-form label {
+  color: #3f443f;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.login-form input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.6em;
+  width: 100%;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.login-form input:focus {
+  border-color: #a9b494;
+  box-shadow: 0 0 4px rgba(88, 112, 66, 0.3);
+  outline: none;
+}
+
+.login-btn {
+  background-color: #587042; /* Verde principal */
+  color: #faf7e6;
+  border: none;
+  padding: 0.7em;
+  border-radius: 8px;
+  width: 100%;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #a9b494;
+  color: #3f443f;
+  border: 1px solid #f6c531; 
+}
+
+.login-link {
+  color: #587042;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  color: #f6c531;
+}
+
+.login-debug {
+  background-color: #faf7e6;
+  border: 1px solid #dcd7c9;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+.login-debug h5 {
+  color: #3f583f;
+  margin-bottom: 0.5rem;
+}
+
+.login-debug pre {
+  background: #fff;
+  border-radius: 6px;
+  padding: 0.75rem;
+  overflow-x: auto;
+  font-size: 0.9rem;
+}
+
+/* Botón oscuro para el acceso rápido */
+.btn-admin {
+  background-color: #3f443f;
+  color: #faf7e6;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-admin:hover {
+  background-color: #a9b494;
+  color: #3f443f;
+}
+
+.login-container {
+  max-width: 650px; 
+}
+
+.login-form {
+  width: 100%;
+}
+
+.login-form input,
+.login-form textarea {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.75em 1em;
+  border-radius: 10px;
+}
+
+.login-form label {
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-top: 0.8em;
+}

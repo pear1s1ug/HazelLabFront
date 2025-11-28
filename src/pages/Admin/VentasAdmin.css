@@ -1,0 +1,19 @@
+.ventas-admin-container {
+  padding: 1rem;
+}
+
+.stats-card {
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.stats-card h3 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.stats-card p {
+  margin: 0.5rem 0 0 0;
+  opacity: 0.9;
+}

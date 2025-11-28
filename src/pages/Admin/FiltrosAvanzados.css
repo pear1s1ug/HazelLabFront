@@ -1,0 +1,24 @@
+.filtros-avanzados {
+  margin-bottom: 1.5rem;
+}
+
+.filtros-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filtros-body {
+  background: #f8f9fa !important;
+  border: 1px solid #dee2e6 !important;
+}
+
+.form-check {
+  margin-bottom: 0.5rem;
+}
+
+.form-check-label {
+  font-size: 0.875rem;
+  color: #495057;
+}

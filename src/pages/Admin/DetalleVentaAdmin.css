@@ -1,0 +1,48 @@
+.detalle-venta-container {
+  padding: 1rem;
+}
+
+.boleta-header {
+  background: linear-gradient(135deg, #587042, #8aab6e);
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.estado-badge {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.monto-total {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #587042;
+}
+
+.acciones-grid {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.info-card {
+  border-left: 4px solid #587042;
+}
+
+.info-card .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .boleta-header {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .monto-total {
+    font-size: 1.5rem;
+  }
+}
